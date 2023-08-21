@@ -1,0 +1,4 @@
+python finetune.py \
+    --base_model 'decapoda-research/llama-7b-hf' \
+    --data_path 'ideepankarsharma2003/warewe_alpaca_style_organic_keywords' \
+    --output_dir './lora-warewe'
